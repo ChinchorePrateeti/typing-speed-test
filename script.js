@@ -129,7 +129,13 @@ function calculate(){
   const wpm = correctWords;
   const accuracy = ((correctWords/totalWords)*100).toFixed(2);
 
-  alert(`Times Up! WPM: ${wpm} \nAccuracy: ${accuracy}%`);
+  const result1 = document.getElementById('result_wpm');
+  result1.textContent = wpm;
+
+  const result2 = document.getElementById('result_accuracy');
+  result2.textContent = accuracy;
+
+  // alert(`Times Up! WPM: ${wpm} \nAccuracy: ${accuracy}%`);
 }
 
 function wordHighlight(){
@@ -164,7 +170,7 @@ function startTimer(){
       clearInterval(timerInterval);
       typingArea.disabled = true;
       calculate();
-      alert("times up!!!");
+      // alert("times up!!!");
     }
   }, 1000);
 }
