@@ -27,7 +27,7 @@ h1 {
 }
 
 #random-paragraph {
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1.6;
   text-align: justify;
   color: #555;
@@ -38,7 +38,7 @@ textarea {
   margin: 20px auto;
   max-width: 600px;
   height: 80px;
-  font-size: 16px;
+  font-size: 14px;
   padding: 15px;
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -82,12 +82,12 @@ textarea:focus {
   }
 
   #random-paragraph {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 1.7;
   }
 
   textarea {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   #timer {
@@ -97,7 +97,7 @@ textarea:focus {
 
 @media (min-width: 761px) {
   h1 {
-    font-size: 42px;
+    font-size: 40px;
   }
 
   .main-container {
@@ -105,12 +105,12 @@ textarea:focus {
   }
 
   #random-paragraph {
-    font-size: 24px;
+    font-size: 18px;
     line-height: 1.8;
   }
 
   textarea {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   #timer {
