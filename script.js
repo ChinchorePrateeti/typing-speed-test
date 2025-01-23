@@ -110,7 +110,7 @@ function createRandomPara(wordCount){
 return para;
 }
 
-const paragraph = createRandomPara(30);
+const paragraph = createRandomPara(80);
 // console.log(paragraph);
 
 // convert the string into an array to perform manipulation
